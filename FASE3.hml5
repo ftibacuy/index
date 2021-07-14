@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Interfaz de usuario, interacción humano ordenador</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Fabiola tibacuy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                            aria-expanded="false">Temas</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                            <li><a class="dropdown-item" href="#">Que es una interfaz </a></li>
+                            <li><a class="dropdown-item" href="#">Intrefaz gráfica de usuario</a></li>
+                            <li><a class="dropdown-item" href="#">Interfaz de un sotio web</a></li>
+                            <li><a class="dropdown-item" href="#">Otros tipos de interfaz de usuario</a></li>
+                            <li><a class="dropdown-item" href="#">Introducción a la ergonomía</a></li>
+                            <li><a class="dropdown-item" href="#">Relaciones en el sistema persona-máquina</a></li>
+                            <li><a class="dropdown-item" href="#">Relación entre optometría y HCI</a></li>
+                            <li><a class="dropdown-item" href="#">Relación entre optometría y HCI</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                            aria-expanded="false">Recursos digitales</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                            <li><a class="dropdown-item" href="#">Visual studio code</a></li>
+                            <li><a class="dropdown-item" href="#">Balsamiq wireframes</a></li>
+                            <li><a class="dropdown-item" href="#">Github</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                            aria-expanded="false">Aprendizaje</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                            <li><a class="dropdown-item" href="#">Aplicar los conocimientos adquiridos en la unidad 1.</a></li>
+                            <li><a class="dropdown-item" href="#">Publicación del diseño de un sitio web,en GitHub Pages.</a></li>
+                            <li><a class="dropdown-item" href="#">Maquetación de un sitio web en balsamiq wireframes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">fabiola.tibacuy@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-text">
+                Propósito del sitio
+            </span>
+            <span class="navbar-text">
+                El porpósito de este sito web es dar a conocer los temas de interfaz usuario asi como la interaccionde humano computador
+            </span>
+        </div>
+    </section>
+    <main class="container pt-3">
+        <article class="bg-light p-5 rounded">
+            <h1>Interfaz de usuaro</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../img/bootstrap-5.jpg" height="260px" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Workana</h5>
+                            <p class="card-text">Workana es la plataforma de trabajo freelance online más importante en Latinoamérica. 
+                            Actualmente cuenta con casi 2 millones de freelancers registrados, y más de 1000 oportunidades de trabajo 
+                            freelance publicadas cada día.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocer Mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../img/bulma-banner.png" height="260px" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Wiki</h5>
+                            <p class="card-text">wiki es  una comunidad virtual, cuyas páginas son editadas directamente desde el navegador,
+                             donde los mismos usuarios crean, modifican, corrigen o eliminan contenidos que, habitualmente, comparten. 
+                             No tiene por qué ser necesariamente un sitio en la web, puesto que hay wikis instalables para uso en el 
+                             escritorio de un computador personal o que pueden portarse en un llavero USB que lleven un entorno LAMP
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocer Mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="../img/tailwind-pre.png" height="260px" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Revista colombiana de computación</h5>
+                            <p class="card-text">La Revista Colombiana de Computación es una publicación arbitrada por el Programa de 
+                            Ingeniería de Sistemas de la Universidad Autónoma de Bucaramanga. Su periodicidad es semestral y publica 
+                            artículos originales e inéditos de investigación en Computación.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocer Mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <figure>
+                <img src="Users\hp\Desktop\diseño de si.png"
+                     width="400"
+                     height="341">
+              </figure>
+            <div class="row justify-content-md-center p-2">
+                <div class="col col-lg-2">
+                    <button type="button" id="mockup" name="mockup" class="btn btn-success" data-bs-toggle="tooltip"
+                        data-bs-html="true" data-bs-animation="true" data-bs-placement="top" title="<img src='../img/Mackup.png' alt='Mockup' style='width:100%'>">
+                        Ver Mockup
+                    </button>
+                </div>
+            </div>
+        </article>
+
+    </main>
+    <footer class="mt-auto bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            ©Copyright Fabiola Tibacuy:
+            <i class="bi bi-mailbox"></i> <a class="text-dark" href="mailto:fabiola.tibacuy@gmail.com">Correo</a>
+            <i class="bi bi-skype"></i> <a class="text-dark" href="https://join.skype.com/invite/NugqdFFmznuG">Skype</a>
+            <i class="bi bi-github"></i> <a class="text-dark" href="https://github.com/daom89">Github</a> Ultima
+            Actualización: 27-06-2021
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
