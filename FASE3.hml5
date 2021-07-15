@@ -3,13 +3,13 @@
 	<head>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="description" content="Bienvenido al OVI Logica de programación donde aprenderemos los Métodos de Ordenación con Programación orientada a objetos">
+	    <meta name="description" content="Bienvenido al OVI donde aprenderemos la interfaz usuario">
 	    <link rel="stylesheet" href="css/style.css" type="text/css">
-	    <title>Inicio OVI Lógica de Programación</title>
+	    <title>Inicio OVI Interfaz de usuario</title>
 	</head>
 	<body>
 	    <header>
-	        <img src="img/logoUnadColor.png" alt="Logo UNAD" class="logo">
+	        <img src="imgenes/logoUNAD2015/.png" alt="Logo UNAD" class="logo">
 	        <h1 class="tituloprincipal">INTERFAZ DE USUARIO,INTERACCION HUMANO ORDENADOR</h1>
 	        <!--Dentro de la etiqueta <nav></nav> se encuentra el Menu-->
 			<nav id="menu_principal">
@@ -72,14 +72,14 @@ sencillas a un software por medio de las ondas cerebrales.</p>
 
 	        <section class="contenido-central">
 	            <div class="video">
-	                <iframe src="https://www.youtube.com/watch?v=YoRtDMj9E20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	                <iframe src="https://www.youtube.com/watch?v=zzEefTCphvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	            </div>
 	        </section>
 	
 
 	        <section class="contenido-derecha">
 	            <aside>
-	                <a class="twitter-timeline" data-width="220" data-height="400" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	                <a class="facebook-timeline" data-width="220" data-height="400" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	                <hr>
 	                <p>Contador de visitas</p>
 	                <a href="https://www.contadorvisitasgratis.com" title="contador de visitas para mi blog"><img src="https://counter10.stat.ovh/private/contadorvisitasgratis.php?c=72mzrqxm2j33g24gxm2xncexl4jthyxu" border="0" title="contador de visitas para mi blog" alt="contador de visitas para mi blog"></a>
